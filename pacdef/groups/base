@@ -1,7 +1,15 @@
 [arch]
 
-# Compositor.
+# Display.
 hyprland
+xdg-desktop-portal
+
+# Input.
+fcitx5
+fcitx5-bamboo
+fcitx5-configtool
+fcitx5-gtk
+fcitx5-mozc
 
 # Network.
 git
@@ -9,7 +17,7 @@ networkmanager
 openssh
 tailscale
 
-# Audio
+# Audio.
 pipewire
 pipewire-alsa
 pipewire-pulse
@@ -26,6 +34,7 @@ rofi
 discord
 firefox
 kitty
+spotify-launcher
 vscodium
 
 # Misc.
