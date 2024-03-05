@@ -1,0 +1,13 @@
+
+[arch]
+base
+base-devel
+efibootmgr
+grub
+linux
+linux-firmware
+neovim
+pacdef
+sudo
+yay
+yay-debug

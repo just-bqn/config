@@ -1,0 +1,38 @@
+[arch]
+
+# Compositor.
+hyprland
+
+# Network.
+git
+networkmanager
+openssh
+tailscale
+
+# Audio
+pipewire
+pipewire-alsa
+pipewire-pulse
+sof-firmware
+wireplumber
+
+# Status bar.
+waybar
+
+# App launcher.
+rofi
+
+# Apps.
+discord
+firefox
+kitty
+vscodium
+
+# Misc.
+7-zip
+hyprpaper
+hyprshot
+
+# Fonts.
+noto-fonts-cjk
+ttf-jetbrains-mono-nerd
