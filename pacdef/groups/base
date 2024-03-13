@@ -1,8 +1,17 @@
 [arch]
 
-# Display.
-hyprland
+# Desktop environment.
+hyprland # Window manager.
+rofi # App launcher.
+waybar # Status bar.
 xdg-desktop-portal
+
+# Shell.
+fish
+
+# Command-line tools.
+fd
+yazi # File manager.
 
 # NVIDIA proprietary driver.
 lib32-nvidia-utils
@@ -26,24 +35,13 @@ pipewire-pulse
 sof-firmware
 wireplumber
 
-# Shell.
-fish
-
-# Status bar.
-waybar
-
-# File manager.
-yazi
-
-# App launcher.
-rofi
-
 # Apps.
 clion
 discord
 firefox
 kitty
 spotify-launcher
+transmission-gtk
 vscodium
 cmake # clion dependency
 gdb # clion dependency
@@ -58,6 +56,7 @@ python-pillow
 hyprpaper
 hyprshot
 neofetch
+poppler
 ventoy
 
 # Fonts.
