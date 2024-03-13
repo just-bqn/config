@@ -4,6 +4,10 @@
 hyprland
 xdg-desktop-portal
 
+# NVIDIA proprietary driver.
+lib32-nvidia-utils
+nvidia
+
 # Input.
 fcitx5
 fcitx5-bamboo
@@ -12,8 +16,6 @@ fcitx5-gtk
 fcitx5-mozc
 
 # Network.
-git
-networkmanager
 openssh
 tailscale
 
@@ -24,23 +26,39 @@ pipewire-pulse
 sof-firmware
 wireplumber
 
+# Shell.
+fish
+
 # Status bar.
 waybar
+
+# File manager.
+yazi
 
 # App launcher.
 rofi
 
 # Apps.
+clion
 discord
 firefox
 kitty
 spotify-launcher
 vscodium
+cmake # clion dependency
+gdb # clion dependency
+jre # clion dependency
+
+# Python
+labelimg-git
+python-pillow
 
 # Misc.
 7-zip
 hyprpaper
 hyprshot
+neofetch
+ventoy
 
 # Fonts.
 noto-fonts-cjk

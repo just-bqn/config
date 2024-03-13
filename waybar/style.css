@@ -7,36 +7,43 @@
 window#waybar {
     background-color: @nord0;
     color: @nord4;
-    transition-property: background-color;
-    transition-duration: .5s;
 }
 
 #workspaces button {
-    padding: 0 5px;
+    padding: 0 4px;
     background: transparent;
-    color: white;
-    border-bottom: 3px solid transparent;
+    color: @nord4;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+	text-shadow: none;
 }
 
-#workspaces button.focused {
-    background: #64727D;
-    border-bottom: 3px solid white;
+#workspaces button:hover {
+    background-color: @nord9;
 }
 
-#clock, #battery {
-    padding: 0 10px;
+#workspaces button.active {
+    background-color: @nord10;
 }
 
-#clock {
-    background-color: #64727D;
+#battery, #clock, #wireplumber {
+    padding: 0 8px;
+    color: @nord0;
 }
 
 #battery {
-    background-color: #ffffff;
-    color: black;
+    background-color: @nord14;
 }
 
-#battery.charging {
-    color: white;
-    background-color: #26A65B;
+#battery.critical {
+    background-color: @nord11;
+}
+
+#clock {
+    background-color: @nord13;
+}
+
+#wireplumber {
+    background-color: @nord15;
 }

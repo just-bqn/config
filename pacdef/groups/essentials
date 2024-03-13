@@ -1,12 +1,15 @@
-
 [arch]
+
+# Important packages!
 base
 base-devel
 efibootmgr
+git
 grub
 linux
 linux-firmware
 neovim
+networkmanager
 pacdef
 sudo
 yay

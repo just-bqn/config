@@ -47,8 +47,8 @@
 }
 
 element {
-    padding: 0px 0px 0px 7px;
-    spacing: 5px;
+    padding: 0px 0px 0px 8px;
+    spacing: 4px;
     border:  0;
     cursor:  pointer;
 }
@@ -124,7 +124,7 @@ mainbox {
 }
 
 message {
-    margin: 0px 7px;
+    margin: 0px 8px;
 }
 
 textbox {
@@ -132,7 +132,7 @@ textbox {
 }
 
 listview {
-    margin: 0px 0px 5px;
+    margin: 0px 0px 4px;
     scrollbar: true;
     spacing: 2px;
     fixed-height: 0;
@@ -141,7 +141,7 @@ listview {
 
 scrollbar {
     padding: 0;
-    handle-width: 14px;
+    handle-width: 8px;
     border: 0;
     handle-color: var(nord3);
 }
@@ -158,8 +158,8 @@ button selected {
 }
 
 inputbar {
-    padding: 7px;
-    margin: 7px;
+    padding: 8px;
+    margin: 8px;
     spacing: 0;
     text-color: var(normal-foreground);
     background-color: var(nord3);
