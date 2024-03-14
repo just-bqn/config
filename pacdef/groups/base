@@ -1,64 +1,61 @@
 [arch]
 
-# Desktop environment.
-hyprland # Window manager.
-rofi # App launcher.
-waybar # Status bar.
+# Desktop environment
+hyprland # Window manager
+rofi # App launcher
+waybar # Status bar
 xdg-desktop-portal
 
-# Shell.
+# Shell
 fish
 
-# Command-line tools.
+# Command-line tools
 fd
-yazi # File manager.
+yazi # File manager
 
-# NVIDIA proprietary driver.
+# NVIDIA proprietary driver
 lib32-nvidia-utils
 nvidia
 
-# Input.
+# Input
 fcitx5
 fcitx5-bamboo
 fcitx5-configtool
 fcitx5-gtk
 fcitx5-mozc
 
-# Network.
+# Network
 openssh
 tailscale
 
-# Audio.
+# Audio
 pipewire
 pipewire-alsa
 pipewire-pulse
 sof-firmware
 wireplumber
 
-# Apps.
+# Apps
 clion
 discord
 firefox
 kitty
+mpv
 spotify-launcher
-transmission-gtk
+transmission-qt 
 vscodium
 cmake # clion dependency
 gdb # clion dependency
 jre # clion dependency
 
-# Python
-labelimg-git
-python-pillow
-
 # Misc.
-7-zip
+7-zip 
 hyprpaper
 hyprshot
 neofetch
 poppler
 ventoy
 
-# Fonts.
+# Fonts
 noto-fonts-cjk
 ttf-jetbrains-mono-nerd
