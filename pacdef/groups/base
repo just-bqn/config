@@ -10,7 +10,9 @@ xdg-desktop-portal
 fish
 
 # Command-line tools
+brillo
 fd
+man-db
 yazi # File manager
 
 # NVIDIA proprietary driver
