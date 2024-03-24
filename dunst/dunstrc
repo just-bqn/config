@@ -1,0 +1,65 @@
+[global]
+    width = 512 
+    height = 256
+    origin = bottom-right
+    offset = 32x32
+
+    notification_limit = 4
+
+    progress_bar = true
+    progress_bar_height = 8
+    progress_bar_frame_width = 2
+    progress_bar_min_width = 256
+    progress_bar_max_width = 512
+    progress_bar_corner_radius = 2
+
+    min_icon_size = 64
+    max_icon_size = 64
+    icon_corner_radius = 4
+
+    separator_height = 2
+
+    padding = 8
+    horizontal_padding = 16
+    text_icon_padding = 0
+
+    frame_width = 2
+    frame_color = "#88c0d0"
+
+    font = JetBrainsMonoNL Nerd Font 11
+
+    # The format of the message.  Possible variables are:
+    #   %a  appname
+    #   %s  summary
+    #   %b  body
+    #   %i  iconname (including its path)
+    #   %I  iconname (without its path)
+    #   %p  progress value if set ([  0%] to [100%]) or nothing
+    #   %n  progress value if set without any extra characters
+    #   %%  Literal %
+    # Markup is allowed
+    format = "<b>%s</b>\n%b"
+    show_age_threshold = 60
+    ellipsize = end
+    ignore_newline = no
+    icon_theme = Papirus
+    corner_radius = 4
+
+    sort = update
+
+[urgency_low]
+    background = "#3b4252C0"
+    foreground = "#d8dee9"
+    timeout = 10
+
+[urgency_normal]
+    background = "#3b4252C0"
+    foreground = "#d8dee9"
+    timeout = 10
+    override_pause_level = 30
+
+[urgency_critical]
+    background = "#3b4252C0"
+    foreground = "#bf616a"
+    timeout = 0
+    override_pause_level = 60

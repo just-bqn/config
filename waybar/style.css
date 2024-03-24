@@ -1,61 +1,64 @@
 @import '/home/_bqn/.config/waybar/nord.css';
 
 * {
-    font-family: JetBrainsMonoNL Nerd Font;
-    color: @nord4;
+  font-family: JetBrainsMonoNL Nerd Font;
+  color: @nord4;
 }
 
 .modules-right {
-    margin: 6px 6px 0 0;
+  margin: 8px 8px 0 0;
 }
 .modules-center {
-    margin: 6px 0 0 0;
+  margin: 8px 0 0 0;
 }
 .modules-left {
-    margin: 6px 0 0 6px;
+  margin: 8px 0 0 8px;
 }
 
 window#waybar {
-    background: transparent;
+  background: transparent;
 }
 
 #workspaces button {
-    padding: 0 4px;
-    background-color: rgba(0, 0, 0, 0.2);
-    border: none;
-    border-radius: 0;
-    border-top: 2px solid transparent;
-    box-shadow: none;
+  padding: 0 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 0;
+  border-top: 2px solid transparent;
+  box-shadow: none;
 	text-shadow: none;
 }
 
 #workspaces button:hover {
-    border-top: 2px solid @nord10;
-    background: inherit;
-    background-color: rgba(0, 0, 0, 0.2);
+  border-top: 2px solid @nord10;
+  background: inherit;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #workspaces button.active {
-    border-top: 2px solid @nord10;
+  border-top: 2px solid @nord10;
 }
 
-#battery, #clock, #wireplumber {
-    padding: 0 8px;
-    background-color: rgba(0, 0, 0, 0.2);
+#battery, #clock, #pulseaudio {
+  padding: 0 8px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #custom-battery-bar {
-    background-color: @nord14;
+  font-size: 8px;
+  background-color: @nord14;
 }
 
 #custom-battery-bar.critical {
-    background-color: @nord11;
+  background-color: @nord11;
 }
 
 #custom-clock-bar {
-    background-color: @nord13;
+  font-size: 8px;
+  background-color: @nord13;
 }
 
-#custom-wireplumber-bar {
-    background-color: @nord15;
+#custom-pulseaudio-bar {
+  font-size: 8px;   
+  background-color: @nord15;
 }

@@ -1,58 +1,58 @@
 {
-    "layer": "top",
-    "output": "eDP-1",
-    
-    "modules-left": [ "hyprland/workspaces" ],
-    "modules-center": [ "hyprland/window" ],
-    "modules-right": [ "custom/wireplumber-bar", "wireplumber", "custom/space", "custom/clock-bar", "clock", "custom/space", "custom/battery-bar", "battery" ],
+  "layer": "top",
+  "output": "eDP-1",
 
-    "hyprland/window": {
-        "max-length": 128,
-        "separate-outputs": true
+  "modules-left": [ "hyprland/workspaces" ],
+  "modules-center": [ "hyprland/window" ],
+  "modules-right": [ "custom/pulseaudio-bar", "pulseaudio", "custom/space", "custom/clock-bar", "clock", "custom/space", "custom/battery-bar", "battery" ],
+
+  "hyprland/window": {
+    "max-length": 128,
+    "separate-outputs": true
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "on-click": "activate"
+  },
+
+  "battery": {
+    "states": {
+      "critical": 20
     },
+    "format": "{capacity}% {icon}",
+    "format-charging": "{capacity}% {icon}",
+    "format-icons": [ " ", " ", " ", " ", " " ]
+  },
 
-    "hyprland/workspaces": {
-        "format": "{icon}",
-        "on-scroll-up": "hyprctl dispatch workspace e+1",
-        "on-scroll-down": "hyprctl dispatch workspace e-1",
-        "on-click": "activate"
-    },
+  "clock": {
+    "format-alt": "{:%a, %d %b, %y  %H:%M}"
+  },
 
-    "battery": {
-        "states": {
-            "critical": 20
-        },
-        "format": "{capacity}% {icon}",
-        "format-charging": "{capacity}% {icon}",
-        "format-icons": [ " ", " ", " ", " ", " " ]
-    },
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": "0% 󰝟",
+    "format-icons": [ "󰕿", "󰖀", "󰕾" ]
+  },
 
-    "clock": {
-        "format-alt": "{:%a, %d %b, %y  %H:%M}"
-    },
-
-    "wireplumber": {
-        "format": "{volume}% {icon}",
-        "format-muted": "0% 󰝟",
-        "format-icons": [ "󰕿", "󰖀", "󰕾" ]
-    },
-
-    "custom/battery-bar": {
+  "custom/battery-bar": {
 		"format": " ",
 		"tooltip": false
 	},
 
-    "custom/clock-bar": {
+  "custom/clock-bar": {
 		"format": " ",
 		"tooltip": false
 	},
 
-    "custom/wireplumber-bar": {
+  "custom/pulseaudio-bar": {
 		"format": " ",
 		"tooltip": false
 	},
 
-    "custom/space": {
+  "custom/space": {
 		"format": " ",
 		"tooltip": false
 	}
