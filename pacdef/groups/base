@@ -42,12 +42,11 @@ sof-firmware
 wireplumber
 
 # Apps
-clion
 discord
 firefox
 kitty
 mpv
-spotify-launcher
+spotify
 transmission-qt 
 cmake # clion dependency
 gdb # clion dependency
@@ -55,6 +54,7 @@ jre # clion dependency
 
 # Misc.
 7-zip 
+fuse2
 hyprpaper
 hyprshot
 neofetch
@@ -66,5 +66,6 @@ zathura-pdf-poppler # zathura dependency
 noto-fonts-cjk
 ttf-jetbrains-mono-nerd
 
-# Icons 
+# Icons and cursors
+nordzy-cursors
 papirus-nord

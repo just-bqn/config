@@ -7,3 +7,9 @@ for dir in dunst fish hypr kitty mpv nvim pacdef rofi waybar
     ln -s $config_directory/$dir/ /home/$USER/.config/$dir
   end
 end
+
+for file in spotify-flags.conf
+  if not test -e /home/$USER/.config/$file
+    ln -s $config_directory/$file /home/$USER/.config/$file
+  end
+end
