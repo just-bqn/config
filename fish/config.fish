@@ -1,1 +1,1 @@
-alias neowofetch='neofetch'
+alias neowofetch='neofetch --ascii_distro Ubuntu'

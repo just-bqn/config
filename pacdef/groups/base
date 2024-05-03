@@ -42,7 +42,6 @@ sof-firmware
 wireplumber
 
 # Apps
-discord
 firefox
 kitty
 mpv
@@ -65,7 +64,3 @@ zathura-pdf-poppler # zathura dependency
 # Fonts
 noto-fonts-cjk
 ttf-jetbrains-mono-nerd
-
-# Icons and cursors
-nordzy-cursors
-papirus-nord

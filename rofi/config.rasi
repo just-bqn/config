@@ -1,6 +1,17 @@
-@theme "~/.config/rofi/nord.rasi"
+@theme "~/config/rofi/gruvbox.rasi"
 
 configuration {
+  show-icons: true;
+  font: "JetBrainsMonoNL Nerd Font 11";
+  icon-theme: "Papirus-Dark";
+
+  display-ssh:    "󰣀 ssh:";
+  display-run:    "󱓞 run:";
+  display-drun:   "󰣖 drun:";
+  display-window: "󱂬 window:";
+  display-combi:  "󰕘 combi:";
+  display-filebrowser: "󰉋 filebrowser:";
+
   kb-remove-to-eol: "";
   kb-remove-to-sol: "";
   kb-accept-entry: "Control+m,Return,KP_Enter";
